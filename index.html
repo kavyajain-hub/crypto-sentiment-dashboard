@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SENTIX // Hyperliquid Sentiment & Trader Intelligence Dashboard</title>
+  <!-- Chart.js CDN for interactive visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- Top Header -->
+    <header>
+      <div class="logo-section">
+        <h1>SENTIX // <span>HYPERLIQUID</span></h1>
+        <p>Market Sentiment Correlation & Trader Performance Intelligence Engine</p>
+      </div>
+      <div class="meta-status">
+        <span class="pulse-icon"></span>
+        <span>Data Engine: 211,218 Perps Trades Analyzed</span>
+      </div>
+    </header>
+
+    <!-- Global KPIs Ribbon -->
+    <section class="kpi-grid">
+      <div class="kpi-card profit">
+        <div class="kpi-label">Cumulative Trader PnL</div>
+        <div class="kpi-value" id="kpi-total-pnl">$0.00</div>
+        <div class="kpi-subtext">Net USD profits realized by 32 key accounts</div>
+      </div>
+      <div class="kpi-card volume">
+        <div class="kpi-label">Cumulative Volume</div>
+        <div class="kpi-value" id="kpi-total-volume">$0.00</div>
+        <div class="kpi-subtext">Total traded value across all perp perfs</div>
+      </div>
+      <div class="kpi-card trades">
+        <div class="kpi-label">Total Trades Execution</div>
+        <div class="kpi-value" id="kpi-total-trades">0</div>
+        <div class="kpi-subtext">Buy and Sell orders merged successfully</div>
+      </div>
+      <div class="kpi-card winrate">
+        <div class="kpi-label">Average Win Rate</div>
+        <div class="kpi-value" id="kpi-win-rate">0.00%</div>
+        <div class="kpi-subtext">Percentage of profitable closed positions</div>
+      </div>
+    </section>
+
+    <!-- Row 1: Global Sentiment & Contrarian Positioning -->
+    <section class="dashboard-row">
+      
+      <!-- Contrarian Signal Card -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title"><span>🔄</span> Contrarian Positioning Signal</h2>
+            <p class="card-description">Elite long positioning ratios vs. Bitcoin Fear & Greed daily index</p>
+          </div>
+        </div>
+        
+        <!-- Sentiment Tile Indicators -->
+        <div class="sentiment-row">
+          <div class="sentiment-tile" id="tile-exfear">
+            <div class="sentiment-tile-label">Ext. Fear</div>
+            <div class="sentiment-tile-value color-exfear" id="val-exfear">0%</div>
+          </div>
+          <div class="sentiment-tile" id="tile-fear">
+            <div class="sentiment-tile-label">Fear</div>
+            <div class="sentiment-tile-value color-fear" id="val-fear">0%</div>
+          </div>
+          <div class="sentiment-tile" id="tile-neutral">
+            <div class="sentiment-tile-label">Neutral</div>
+            <div class="sentiment-tile-value color-neutral" id="val-neutral">0%</div>
+          </div>
+          <div class="sentiment-tile" id="tile-greed">
+            <div class="sentiment-tile-label">Greed</div>
+            <div class="sentiment-tile-value color-greed" id="val-greed">0%</div>
+          </div>
+          <div class="sentiment-tile" id="tile-exgreed">
+            <div class="sentiment-tile-label">Ext. Greed</div>
+            <div class="sentiment-tile-value color-exgreed" id="val-exgreed">0%</div>
+          </div>
+        </div>
+        
+        <div class="chart-container">
+          <canvas id="contrarianSignalChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Regime Profitability Card -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title"><span>📊</span> Regime Profitability Summary</h2>
+            <p class="card-description">Total PnL and trade sizing distribution grouped by market sentiment</p>
+          </div>
+        </div>
+        <div class="chart-container" style="margin-top: 1rem;">
+          <canvas id="regimeProfitabilityChart"></canvas>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Row 2: Elite Trader Directory & Dynamic Showcase -->
+    <h2 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-white); display: flex; align-items: center; gap: 0.5rem;">
+      <span>👥</span> Trader Directory & Sentiment Archetypes
+    </h2>
+    
+    <section class="trader-section-grid">
+      
+      <!-- Left: Interactive Sidebar -->
+      <div class="trader-sidebar">
+        <div class="sidebar-header">
+          <input type="text" class="search-box" id="trader-search" placeholder="Search accounts by address...">
+          <div class="archetype-filter-container" id="archetype-filters">
+            <span class="filter-badge active" data-filter="all">All Profiles</span>
+            <span class="filter-badge" data-filter="Greed Rider">Greed Riders</span>
+            <span class="filter-badge" data-filter="Fear Harvester">Fear Harvesters</span>
+            <span class="filter-badge" data-filter="Hedged Market Maker">Hedged Makers</span>
+            <span class="filter-badge" data-filter="Bleeding Shorter">Bleeding Short</span>
+          </div>
+        </div>
+        <div class="trader-list" id="trader-list-container">
+          <!-- Populated dynamically via app.js -->
+        </div>
+      </div>
+
+      <!-- Right: Showcase Detail Panel -->
+      <div class="card trader-detail-panel" id="trader-detail-panel">
+        
+        <!-- Showcase Header -->
+        <div class="trader-detail-header">
+          <div class="trader-title-box">
+            <h3 id="detail-account-name">0x0000...0000</h3>
+            <div id="detail-archetype-badge" class="archetype-badge archetype-greed-rider">Greed Rider</div>
+            <p class="trader-desc" id="detail-archetype-desc">Loading profile details...</p>
+          </div>
+          <div class="trader-header-metrics">
+            <div class="trader-h-metric">
+              <div class="trader-h-label">Net PnL</div>
+              <div class="trader-h-value pnl-positive" id="detail-pnl">$0.00</div>
+            </div>
+            <div class="trader-h-metric">
+              <div class="trader-h-label">Win Rate</div>
+              <div class="trader-h-value" id="detail-win-rate">0.00%</div>
+            </div>
+            <div class="trader-h-metric">
+              <div class="trader-h-label">Trades Count</div>
+              <div class="trader-h-value" id="detail-trades">0</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Showcase Body (Table & Radar/Bar Chart side-by-side) -->
+        <div class="trader-details-body">
+          <div class="trader-matrix-card">
+            <h4 style="font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem; letter-spacing: 0.5px;">Sentiment Performance Matrix</h4>
+            <table class="matrix-table">
+              <thead>
+                <tr>
+                  <th>Regime</th>
+                  <th style="text-align: right;">Realized PnL</th>
+                  <th style="text-align: right;">Trades</th>
+                  <th style="text-align: right;">Win Rate</th>
+                </tr>
+              </thead>
+              <tbody id="detail-matrix-tbody">
+                <!-- Dynamic Rows -->
+              </tbody>
+            </table>
+          </div>
+          <div class="trader-matrix-card" style="justify-content: center; align-items: center;">
+            <div class="chart-container" style="height: 100%; width: 100%;">
+              <canvas id="traderMatrixChart"></canvas>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+
+    <!-- Row 3: Token Preference Rotation Board -->
+    <section class="card" style="margin-bottom: 3rem;">
+      <div class="card-header" style="flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <h2 class="card-title"><span>🔄</span> Token Rotation & Profitability Board</h2>
+          <p class="card-description">Explores coin PnL performance, fees, and active volume rotation across sentiments</p>
+        </div>
+        <div class="tab-header" id="token-board-tabs">
+          <button class="tab-btn active" data-tab="overall">Overall Performance</button>
+          <button class="tab-btn" data-tab="Extreme Fear">Extreme Fear Rotation</button>
+          <button class="tab-btn" data-tab="Extreme Greed">Extreme Greed Rotation</button>
+        </div>
+      </div>
+
+      <div class="token-table-container">
+        <table class="token-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Asset</th>
+              <th style="text-align: right;">Net Realized PnL</th>
+              <th style="text-align: right;">Total Size Volume</th>
+              <th style="text-align: right;">Execution Count</th>
+              <th style="text-align: right;">Trading Fees Paid</th>
+              <th>Win Distribution</th>
+            </tr>
+          </thead>
+          <tbody id="token-table-body">
+            <!-- Dynamically Populated Rows -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Dashboard JavaScript Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

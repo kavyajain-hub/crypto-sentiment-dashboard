@@ -1,0 +1,1826 @@
+{
+  "global_kpis": {
+    "total_trades": 211218,
+    "unique_traders": 32,
+    "total_pnl_usd": 10254486.949306,
+    "total_volume_usd": 1191098773.6000001,
+    "total_fees_usd": 245849.2083617308,
+    "win_rate": 0.8320051340012643
+  },
+  "sentiment_metrics": {
+    "Extreme Fear": {
+      "total_pnl": 739110.24849,
+      "mean_pnl": 34.53786207897196,
+      "trade_count": 21400,
+      "total_volume": 114484261.44,
+      "avg_trade_size": 5349.7318429906545,
+      "win_rate": 0.7621564482029598
+    },
+    "Fear": {
+      "total_pnl": 3357155.4416419994,
+      "mean_pnl": 54.29039962549929,
+      "trade_count": 61837,
+      "total_volume": 483324789.78999996,
+      "avg_trade_size": 7816.109930785775,
+      "win_rate": 0.8728864734299517
+    },
+    "Neutral": {
+      "total_pnl": 1292920.6755499998,
+      "mean_pnl": 34.307718398078855,
+      "trade_count": 37686,
+      "total_volume": 180242063.07999998,
+      "avg_trade_size": 4782.732661465796,
+      "win_rate": 0.8238889806707418
+    },
+    "Greed": {
+      "total_pnl": 2150129.272951,
+      "mean_pnl": 42.74355948851957,
+      "trade_count": 50303,
+      "total_volume": 288582494.71999997,
+      "avg_trade_size": 5736.884375086972,
+      "win_rate": 0.7689068954559898
+    },
+    "Extreme Greed": {
+      "total_pnl": 2715171.310673,
+      "mean_pnl": 67.89286133909282,
+      "trade_count": 39992,
+      "total_volume": 124465164.57,
+      "avg_trade_size": 3112.2515645629123,
+      "win_rate": 0.8916702632714717
+    }
+  },
+  "directional_signals": {
+    "Extreme Fear": {
+      "open_longs": 7005,
+      "open_shorts": 3174,
+      "total_opens": 10179,
+      "long_ratio": 0.6881815502505158
+    },
+    "Fear": {
+      "open_longs": 17824,
+      "open_shorts": 10887,
+      "total_opens": 28711,
+      "long_ratio": 0.6208073560656194
+    },
+    "Neutral": {
+      "open_longs": 10222,
+      "open_shorts": 6353,
+      "total_opens": 16575,
+      "long_ratio": 0.6167119155354449
+    },
+    "Greed": {
+      "open_longs": 8544,
+      "open_shorts": 11664,
+      "total_opens": 20208,
+      "long_ratio": 0.42280285035629456
+    },
+    "Extreme Greed": {
+      "open_longs": 6300,
+      "open_shorts": 7663,
+      "total_opens": 13963,
+      "long_ratio": 0.45119243715533913
+    }
+  },
+  "trader_profiles": [
+    {
+      "account": "0xb1231a4a2dd02f2276fa3c5e2a2f3436e6bfed23",
+      "display_name": "0xb123...ed23",
+      "total_pnl": 2143382.597689,
+      "trade_count": 14733,
+      "total_volume": 56543565.230000004,
+      "total_fees": 15995.318251820001,
+      "win_rate": 0.7910495301799649,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 9544.906133999999,
+          "trades": 739,
+          "win_rate": 0.5778894472361809
+        },
+        "Fear": {
+          "pnl": 93165.161357,
+          "trades": 3005,
+          "win_rate": 0.993933265925177
+        },
+        "Neutral": {
+          "pnl": 401309.434693,
+          "trades": 3457,
+          "win_rate": 0.8514657980456026
+        },
+        "Greed": {
+          "pnl": 534058.2363300001,
+          "trades": 5889,
+          "win_rate": 0.6530032467532467
+        },
+        "Extreme Greed": {
+          "pnl": 1105304.859175,
+          "trades": 1643,
+          "win_rate": 0.9384098544232923
+        }
+      }
+    },
+    {
+      "account": "0x083384f897ee0f19899168e3b1bec365f52a9012",
+      "display_name": "0x0833...9012",
+      "total_pnl": 1600229.819979,
+      "trade_count": 3818,
+      "total_volume": 61697263.970000006,
+      "total_fees": 7405.312304,
+      "win_rate": 0.7927251732101617,
+      "archetype": "Fear Harvester",
+      "description": "Dip-buying specialist. Thrives during panic (Fear/Extreme Fear) and steps away or underperforms during high greed.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 124769.22144099999,
+          "trades": 100,
+          "win_rate": 1.0
+        },
+        "Fear": {
+          "pnl": 1113373.547515,
+          "trades": 1778,
+          "win_rate": 0.89058039961941
+        },
+        "Neutral": {
+          "pnl": 125650.11674000001,
+          "trades": 421,
+          "win_rate": 1.0
+        },
+        "Greed": {
+          "pnl": 276719.270187,
+          "trades": 574,
+          "win_rate": 0.6013071895424836
+        },
+        "Extreme Greed": {
+          "pnl": -40282.33590399999,
+          "trades": 945,
+          "win_rate": 0.25609756097560976
+        }
+      }
+    },
+    {
+      "account": "0xbaaaf6571ab7d571043ff1e313a9609a10637864",
+      "display_name": "0xbaaa...7864",
+      "total_pnl": 940163.8062200001,
+      "trade_count": 21192,
+      "total_volume": 68036340.24000001,
+      "total_fees": 8596.705666218999,
+      "win_rate": 0.9911973592077623,
+      "archetype": "Fear Harvester",
+      "description": "Dip-buying specialist. Thrives during panic (Fear/Extreme Fear) and steps away or underperforms during high greed.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 261917.97779200002,
+          "trades": 4480,
+          "win_rate": 1.0
+        },
+        "Fear": {
+          "pnl": 620872.375844,
+          "trades": 12437,
+          "win_rate": 0.9863122712080217
+        },
+        "Neutral": {
+          "pnl": 57368.780126000005,
+          "trades": 4270,
+          "win_rate": 1.0
+        },
+        "Greed": {
+          "pnl": 4.672458,
+          "trades": 5,
+          "win_rate": 0.3333333333333333
+        },
+        "Extreme Greed": {
+          "pnl": 0.0,
+          "trades": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    {
+      "account": "0x513b8629fe877bb581bf244e326a047b249c4ff1",
+      "display_name": "0x513b...4ff1",
+      "total_pnl": 840422.555216,
+      "trade_count": 12236,
+      "total_volume": 420876556.36,
+      "total_fees": 76424.64289168999,
+      "win_rate": 0.8954761036118205,
+      "archetype": "Hedged Market Maker",
+      "description": "Systematic profile. Maintains high win rates and profitability in both fear panic and greed expansion, likely delta-neutral.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": -71121.820704,
+          "trades": 346,
+          "win_rate": 0.6687898089171974
+        },
+        "Fear": {
+          "pnl": 367166.21692399995,
+          "trades": 5981,
+          "win_rate": 0.860248447204969
+        },
+        "Neutral": {
+          "pnl": 381330.49405000004,
+          "trades": 2517,
+          "win_rate": 0.9667359667359667
+        },
+        "Greed": {
+          "pnl": 163047.664946,
+          "trades": 3169,
+          "win_rate": 0.9134762633996937
+        },
+        "Extreme Greed": {
+          "pnl": 0.0,
+          "trades": 223,
+          "win_rate": 0.0
+        }
+      }
+    },
+    {
+      "account": "0xbee1707d6b44d4d52bfe19e41f8a828645437aab",
+      "display_name": "0xbee1...7aab",
+      "total_pnl": 836080.553077,
+      "trade_count": 40184,
+      "total_volume": 74107810.44,
+      "total_fees": 13352.89970895,
+      "win_rate": 0.7630703738193428,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 30774.092128,
+          "trades": 5079,
+          "win_rate": 0.7293259207783183
+        },
+        "Fear": {
+          "pnl": 55978.79696,
+          "trades": 12901,
+          "win_rate": 0.7546993941276993
+        },
+        "Neutral": {
+          "pnl": 27116.682664,
+          "trades": 8143,
+          "win_rate": 0.6598322460391426
+        },
+        "Greed": {
+          "pnl": 243399.51314000002,
+          "trades": 7338,
+          "win_rate": 0.7707956600361664
+        },
+        "Extreme Greed": {
+          "pnl": 478811.46818500006,
+          "trades": 6723,
+          "win_rate": 0.8869469026548673
+        }
+      }
+    },
+    {
+      "account": "0x4acb90e786d897ecffb614dc822eb231b4ffb9f4",
+      "display_name": "0x4acb...b9f4",
+      "total_pnl": 677747.0506429999,
+      "trade_count": 4356,
+      "total_volume": 39572949.25,
+      "total_fees": 8025.99239419,
+      "win_rate": 0.948499776085983,
+      "archetype": "Fear Harvester",
+      "description": "Dip-buying specialist. Thrives during panic (Fear/Extreme Fear) and steps away or underperforms during high greed.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 166696.399486,
+          "trades": 986,
+          "win_rate": 0.9807073954983923
+        },
+        "Fear": {
+          "pnl": 296781.72285799996,
+          "trades": 1396,
+          "win_rate": 0.9532554257095158
+        },
+        "Neutral": {
+          "pnl": 97380.090931,
+          "trades": 672,
+          "win_rate": 1.0
+        },
+        "Greed": {
+          "pnl": 96392.78318600002,
+          "trades": 1135,
+          "win_rate": 0.9375866851595007
+        },
+        "Extreme Greed": {
+          "pnl": 20496.054182,
+          "trades": 167,
+          "win_rate": 0.625
+        }
+      }
+    },
+    {
+      "account": "0x72743ae2822edd658c0c50608fd7c5c501b2afbd",
+      "display_name": "0x7274...afbd",
+      "total_pnl": 429355.56591500004,
+      "trade_count": 1590,
+      "total_volume": 11474500.920000002,
+      "total_fees": 1551.43726629,
+      "win_rate": 0.746268656716418,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 33979.99999999999,
+          "trades": 509,
+          "win_rate": 1.0
+        },
+        "Fear": {
+          "pnl": -58219.752261,
+          "trades": 311,
+          "win_rate": 0.32051282051282054
+        },
+        "Neutral": {
+          "pnl": 0.0,
+          "trades": 79,
+          "win_rate": 0.0
+        },
+        "Greed": {
+          "pnl": 453595.318176,
+          "trades": 593,
+          "win_rate": 0.6988847583643123
+        },
+        "Extreme Greed": {
+          "pnl": 0.0,
+          "trades": 98,
+          "win_rate": 0.0
+        }
+      }
+    },
+    {
+      "account": "0x430f09841d65beb3f27765503d0f850b8bce7713",
+      "display_name": "0x430f...7713",
+      "total_pnl": 416541.872341,
+      "trade_count": 1237,
+      "total_volume": 2966109.2199999997,
+      "total_fees": 747.0069310000001,
+      "win_rate": 1.0,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 0.0,
+          "trades": 79,
+          "win_rate": 0.0
+        },
+        "Fear": {
+          "pnl": 5615.052102,
+          "trades": 237,
+          "win_rate": 1.0
+        },
+        "Neutral": {
+          "pnl": 58961.37973,
+          "trades": 134,
+          "win_rate": 1.0
+        },
+        "Greed": {
+          "pnl": 227680.491734,
+          "trades": 772,
+          "win_rate": 1.0
+        },
+        "Extreme Greed": {
+          "pnl": 124284.948775,
+          "trades": 15,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0x75f7eeb85dc639d5e99c78f95393aa9a5f1170d4",
+      "display_name": "0x75f7...70d4",
+      "total_pnl": 379095.406711,
+      "trade_count": 9893,
+      "total_volume": 25729497.240000002,
+      "total_fees": 2595.25914168,
+      "win_rate": 0.9263279445727483,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 25672.838055,
+          "trades": 316,
+          "win_rate": 0.993127147766323
+        },
+        "Fear": {
+          "pnl": 49364.275663,
+          "trades": 1664,
+          "win_rate": 0.8658210947930574
+        },
+        "Neutral": {
+          "pnl": -2605.9564709999995,
+          "trades": 1464,
+          "win_rate": 0.87468671679198
+        },
+        "Greed": {
+          "pnl": 95937.394195,
+          "trades": 2618,
+          "win_rate": 0.9441964285714286
+        },
+        "Extreme Greed": {
+          "pnl": 210726.85526900002,
+          "trades": 3831,
+          "win_rate": 0.953407105416424
+        }
+      }
+    },
+    {
+      "account": "0x72c6a4624e1dffa724e6d00d64ceae698af892a0",
+      "display_name": "0x72c6...92a0",
+      "total_pnl": 360539.51002900006,
+      "trade_count": 1424,
+      "total_volume": 2962475.47,
+      "total_fees": 281.49884416000003,
+      "win_rate": 0.7741935483870968,
+      "archetype": "Fear Harvester",
+      "description": "Dip-buying specialist. Thrives during panic (Fear/Extreme Fear) and steps away or underperforms during high greed.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 198900.56161000003,
+          "trades": 221,
+          "win_rate": 0.49732620320855614
+        },
+        "Fear": {
+          "pnl": 144514.3446,
+          "trades": 431,
+          "win_rate": 0.9114754098360656
+        },
+        "Neutral": {
+          "pnl": -4526.698469,
+          "trades": 57,
+          "win_rate": 0.0
+        },
+        "Greed": {
+          "pnl": 21077.716999999997,
+          "trades": 488,
+          "win_rate": 1.0
+        },
+        "Extreme Greed": {
+          "pnl": 573.585288,
+          "trades": 227,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0x4f93fead39b70a1824f981a54d4e55b278e9f760",
+      "display_name": "0x4f93...f760",
+      "total_pnl": 308975.869716,
+      "trade_count": 7584,
+      "total_volume": 129672529.28,
+      "total_fees": 40724.467403,
+      "win_rate": 0.9267548321464903,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 74346.546606,
+          "trades": 371,
+          "win_rate": 1.0
+        },
+        "Fear": {
+          "pnl": -19126.158063999996,
+          "trades": 1156,
+          "win_rate": 0.8616352201257862
+        },
+        "Neutral": {
+          "pnl": 45514.323221,
+          "trades": 1277,
+          "win_rate": 0.9494773519163763
+        },
+        "Greed": {
+          "pnl": 79023.47149299999,
+          "trades": 2334,
+          "win_rate": 0.944640753828033
+        },
+        "Extreme Greed": {
+          "pnl": 129217.68646,
+          "trades": 2446,
+          "win_rate": 0.9168539325842696
+        }
+      }
+    },
+    {
+      "account": "0xbd5fead7180a9c139fa51a103cb6a2ce86ddb5c3",
+      "display_name": "0xbd5f...b5c3",
+      "total_pnl": 220519.06185300002,
+      "trade_count": 2641,
+      "total_volume": 20737391.709999997,
+      "total_fees": 4773.09848443,
+      "win_rate": 0.7349192863211554,
+      "archetype": "Fear Harvester",
+      "description": "Dip-buying specialist. Thrives during panic (Fear/Extreme Fear) and steps away or underperforms during high greed.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 37712.523409,
+          "trades": 387,
+          "win_rate": 0.5672514619883041
+        },
+        "Fear": {
+          "pnl": 236797.72773699998,
+          "trades": 1181,
+          "win_rate": 0.8414285714285714
+        },
+        "Neutral": {
+          "pnl": -90302.55371799998,
+          "trades": 413,
+          "win_rate": 0.4563758389261745
+        },
+        "Greed": {
+          "pnl": 30258.203855,
+          "trades": 350,
+          "win_rate": 0.85
+        },
+        "Extreme Greed": {
+          "pnl": 6053.160570000001,
+          "trades": 310,
+          "win_rate": 0.45614035087719296
+        }
+      }
+    },
+    {
+      "account": "0x420ab45e0bd8863569a5efbb9c05d91f40624641",
+      "display_name": "0x420a...4641",
+      "total_pnl": 199505.59273200002,
+      "trade_count": 383,
+      "total_volume": 1987527.61,
+      "total_fees": 267.967088979,
+      "win_rate": 1.0,
+      "archetype": "Fear Harvester",
+      "description": "Dip-buying specialist. Thrives during panic (Fear/Extreme Fear) and steps away or underperforms during high greed.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 9461.082288,
+          "trades": 61,
+          "win_rate": 1.0
+        },
+        "Fear": {
+          "pnl": 99648.278349,
+          "trades": 98,
+          "win_rate": 1.0
+        },
+        "Neutral": {
+          "pnl": 74293.663505,
+          "trades": 48,
+          "win_rate": 1.0
+        },
+        "Greed": {
+          "pnl": 12082.95,
+          "trades": 68,
+          "win_rate": 1.0
+        },
+        "Extreme Greed": {
+          "pnl": 4019.61859,
+          "trades": 108,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0x2c229d22b100a7beb69122eed721cee9b24011dd",
+      "display_name": "0x2c22...11dd",
+      "total_pnl": 168658.00499400002,
+      "trade_count": 3239,
+      "total_volume": 10166880.2,
+      "total_fees": 3108.1967219999997,
+      "win_rate": 0.8174757281553398,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 11415.247787,
+          "trades": 112,
+          "win_rate": 1.0
+        },
+        "Fear": {
+          "pnl": 3979.190771999999,
+          "trades": 381,
+          "win_rate": 0.6179775280898876
+        },
+        "Neutral": {
+          "pnl": 42292.843076000005,
+          "trades": 1015,
+          "win_rate": 0.8613569321533924
+        },
+        "Greed": {
+          "pnl": 20075.672949,
+          "trades": 253,
+          "win_rate": 0.8203592814371258
+        },
+        "Extreme Greed": {
+          "pnl": 90895.05041,
+          "trades": 1478,
+          "win_rate": 0.8277841561423651
+        }
+      }
+    },
+    {
+      "account": "0x28736f43f1e871e6aa8b1148d38d4994275d72c4",
+      "display_name": "0x2873...72c4",
+      "total_pnl": 132464.814554,
+      "trade_count": 13311,
+      "total_volume": 6757022.1,
+      "total_fees": 2218.3673664508997,
+      "win_rate": 0.8620791494388659,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": -25666.012284,
+          "trades": 574,
+          "win_rate": 0.5935251798561151
+        },
+        "Fear": {
+          "pnl": 13422.524859000001,
+          "trades": 1399,
+          "win_rate": 0.8945022288261516
+        },
+        "Neutral": {
+          "pnl": 5505.749364,
+          "trades": 887,
+          "win_rate": 0.9366515837104072
+        },
+        "Greed": {
+          "pnl": 31192.591971,
+          "trades": 2970,
+          "win_rate": 0.925
+        },
+        "Extreme Greed": {
+          "pnl": 108009.960644,
+          "trades": 7481,
+          "win_rate": 0.8441228738258442
+        }
+      }
+    },
+    {
+      "account": "0x92f17e8d81a944691c10e753af1b1baae1a2cd0d",
+      "display_name": "0x92f1...cd0d",
+      "total_pnl": 126578.942134,
+      "trade_count": 3052,
+      "total_volume": 10992355.74,
+      "total_fees": 2821.95879926,
+      "win_rate": 0.976457399103139,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 3425.9609499999997,
+          "trades": 68,
+          "win_rate": 1.0
+        },
+        "Fear": {
+          "pnl": -621.54506,
+          "trades": 191,
+          "win_rate": 0.0
+        },
+        "Neutral": {
+          "pnl": 0.0,
+          "trades": 45,
+          "win_rate": 0.0
+        },
+        "Greed": {
+          "pnl": 60254.251561,
+          "trades": 1199,
+          "win_rate": 0.9665871121718377
+        },
+        "Extreme Greed": {
+          "pnl": 63520.27468300001,
+          "trades": 1549,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0x6d6a4b953f202f8df5bed40692e7fd865318264a",
+      "display_name": "0x6d6a...264a",
+      "total_pnl": 108731.216772,
+      "trade_count": 975,
+      "total_volume": 728057.51,
+      "total_fees": 186.8360769324,
+      "win_rate": 0.9882629107981221,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 2037.258612,
+          "trades": 143,
+          "win_rate": 0.9565217391304348
+        },
+        "Fear": {
+          "pnl": 2040.359057,
+          "trades": 359,
+          "win_rate": 0.9634146341463414
+        },
+        "Neutral": {
+          "pnl": 1258.120923,
+          "trades": 61,
+          "win_rate": 1.0
+        },
+        "Greed": {
+          "pnl": 30203.401038000004,
+          "trades": 241,
+          "win_rate": 1.0
+        },
+        "Extreme Greed": {
+          "pnl": 73192.07714200001,
+          "trades": 171,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0xa0feb3725a9335f49874d7cd8eaad6be45b27416",
+      "display_name": "0xa0fe...7416",
+      "total_pnl": 106302.875256,
+      "trade_count": 15605,
+      "total_volume": 19868207.98,
+      "total_fees": 2287.9554331042,
+      "win_rate": 0.9703290775040461,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 1011.258943,
+          "trades": 270,
+          "win_rate": 0.9838709677419355
+        },
+        "Fear": {
+          "pnl": 12934.469345000001,
+          "trades": 2324,
+          "win_rate": 0.9959623149394348
+        },
+        "Neutral": {
+          "pnl": 9467.021637000002,
+          "trades": 5399,
+          "win_rate": 0.9446878422782037
+        },
+        "Greed": {
+          "pnl": 35098.877549,
+          "trades": 4115,
+          "win_rate": 0.9921428571428571
+        },
+        "Extreme Greed": {
+          "pnl": 47791.24778199999,
+          "trades": 3497,
+          "win_rate": 0.9679738562091503
+        }
+      }
+    },
+    {
+      "account": "0x47add9a56df66b524d5e2c1993a43cde53b6ed85",
+      "display_name": "0x47ad...ed85",
+      "total_pnl": 103343.71616099999,
+      "trade_count": 8519,
+      "total_volume": 4408828.9,
+      "total_fees": 1230.8465211819,
+      "win_rate": 0.822003822003822,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": -14527.442518000003,
+          "trades": 391,
+          "win_rate": 0.5392670157068062
+        },
+        "Fear": {
+          "pnl": 9999.484228,
+          "trades": 924,
+          "win_rate": 0.8111888111888111
+        },
+        "Neutral": {
+          "pnl": 4029.241688,
+          "trades": 656,
+          "win_rate": 0.8347826086956521
+        },
+        "Greed": {
+          "pnl": 36566.483324,
+          "trades": 3398,
+          "win_rate": 0.834733893557423
+        },
+        "Extreme Greed": {
+          "pnl": 67275.949439,
+          "trades": 3150,
+          "win_rate": 0.8503937007874016
+        }
+      }
+    },
+    {
+      "account": "0xa520ded057a32086c40e7dd6ed4eb8efb82c00e0",
+      "display_name": "0xa520...00e0",
+      "total_pnl": 72846.484272,
+      "trade_count": 417,
+      "total_volume": 861809.3999999999,
+      "total_fees": 189.93800451000004,
+      "win_rate": 0.9372549019607843,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": -961.048507,
+          "trades": 5,
+          "win_rate": 0.0
+        },
+        "Fear": {
+          "pnl": -16719.913714,
+          "trades": 44,
+          "win_rate": 0.23076923076923078
+        },
+        "Neutral": {
+          "pnl": -53.631353999999995,
+          "trades": 4,
+          "win_rate": 0.0
+        },
+        "Greed": {
+          "pnl": 44169.810737,
+          "trades": 108,
+          "win_rate": 1.0
+        },
+        "Extreme Greed": {
+          "pnl": 46411.26711,
+          "trades": 256,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0xae5eacaf9c6b9111fd53034a602c192a04e082ed",
+      "display_name": "0xae5e...82ed",
+      "total_pnl": 67845.619531,
+      "trade_count": 563,
+      "total_volume": 1677425.7199999997,
+      "total_fees": 548.72926461,
+      "win_rate": 1.0,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 622.41079,
+          "trades": 80,
+          "win_rate": 1.0
+        },
+        "Fear": {
+          "pnl": 8129.3406589999995,
+          "trades": 123,
+          "win_rate": 1.0
+        },
+        "Neutral": {
+          "pnl": 0.0,
+          "trades": 0,
+          "win_rate": 0.0
+        },
+        "Greed": {
+          "pnl": 38168.35486,
+          "trades": 170,
+          "win_rate": 1.0
+        },
+        "Extreme Greed": {
+          "pnl": 20925.513222,
+          "trades": 190,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0x8381e6d82f1affd39a336e143e081ef7620a3b7f",
+      "display_name": "0x8381...3b7f",
+      "total_pnl": 65513.65790600001,
+      "trade_count": 1911,
+      "total_volume": 11999173.370000001,
+      "total_fees": 3384.8822185800004,
+      "win_rate": 0.8837535014005602,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": -4825.496358,
+          "trades": 49,
+          "win_rate": 0.4
+        },
+        "Fear": {
+          "pnl": 258.41533,
+          "trades": 55,
+          "win_rate": 1.0
+        },
+        "Neutral": {
+          "pnl": 12960.109958,
+          "trades": 1430,
+          "win_rate": 0.8822393822393823
+        },
+        "Greed": {
+          "pnl": 57108.91130000001,
+          "trades": 297,
+          "win_rate": 0.9862068965517241
+        },
+        "Extreme Greed": {
+          "pnl": 11.717676000000012,
+          "trades": 80,
+          "win_rate": 0.2857142857142857
+        }
+      }
+    },
+    {
+      "account": "0x3f9a0aadc7f04a7c9d75dc1b5a6ddd6e36486cf6",
+      "display_name": "0x3f9a...6cf6",
+      "total_pnl": 53496.247243000005,
+      "trade_count": 332,
+      "total_volume": 1143896.46,
+      "total_fees": 176.27417591699998,
+      "win_rate": 1.0,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 110.55336399999999,
+          "trades": 19,
+          "win_rate": 1.0
+        },
+        "Fear": {
+          "pnl": 4256.559308999999,
+          "trades": 79,
+          "win_rate": 1.0
+        },
+        "Neutral": {
+          "pnl": 8019.163096,
+          "trades": 2,
+          "win_rate": 1.0
+        },
+        "Greed": {
+          "pnl": 4239.816383,
+          "trades": 26,
+          "win_rate": 1.0
+        },
+        "Extreme Greed": {
+          "pnl": 36870.155091,
+          "trades": 206,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0x23e7a7f8d14b550961925fbfdaa92f5d195ba5bd",
+      "display_name": "0x23e7...a5bd",
+      "total_pnl": 47885.32051399999,
+      "trade_count": 7280,
+      "total_volume": 12035487.66,
+      "total_fees": 2729.83788853,
+      "win_rate": 0.7736437830052808,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": -4235.153050999999,
+          "trades": 170,
+          "win_rate": 0.8225806451612904
+        },
+        "Fear": {
+          "pnl": -1658.736801,
+          "trades": 2622,
+          "win_rate": 0.7977099236641222
+        },
+        "Neutral": {
+          "pnl": -11933.080124999999,
+          "trades": 720,
+          "win_rate": 0.6598984771573604
+        },
+        "Greed": {
+          "pnl": 30053.395556,
+          "trades": 2943,
+          "win_rate": 0.7111913357400722
+        },
+        "Extreme Greed": {
+          "pnl": 35658.894935,
+          "trades": 825,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0x8477e447846c758f5a675856001ea72298fd9cb5",
+      "display_name": "0x8477...9cb5",
+      "total_pnl": 43917.008976000005,
+      "trade_count": 14998,
+      "total_volume": 12304786.84,
+      "total_fees": 3792.5430954699996,
+      "win_rate": 0.5990242415002287,
+      "archetype": "Hedged Market Maker",
+      "description": "Systematic profile. Maintains high win rates and profitability in both fear panic and greed expansion, likely delta-neutral.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 1774.309786,
+          "trades": 539,
+          "win_rate": 0.8083832335329342
+        },
+        "Fear": {
+          "pnl": 9299.484548,
+          "trades": 1474,
+          "win_rate": 0.8253424657534246
+        },
+        "Neutral": {
+          "pnl": 808.3427169999986,
+          "trades": 2195,
+          "win_rate": 0.6549893842887473
+        },
+        "Greed": {
+          "pnl": -24036.539128,
+          "trades": 6804,
+          "win_rate": 0.4025549613784908
+        },
+        "Extreme Greed": {
+          "pnl": 56071.411053,
+          "trades": 3986,
+          "win_rate": 0.8933333333333333
+        }
+      }
+    },
+    {
+      "account": "0xb899e522b5715391ae1d4f137653e7906c5e2115",
+      "display_name": "0xb899...2115",
+      "total_pnl": 22488.500821,
+      "trade_count": 4838,
+      "total_volume": 108877041.10000001,
+      "total_fees": 28643.173715000004,
+      "win_rate": 0.8034835289663006,
+      "archetype": "Fear Harvester",
+      "description": "Dip-buying specialist. Thrives during panic (Fear/Extreme Fear) and steps away or underperforms during high greed.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": -33221.806818000005,
+          "trades": 1577,
+          "win_rate": 0.6385542168674698
+        },
+        "Fear": {
+          "pnl": 51692.358711,
+          "trades": 2947,
+          "win_rate": 0.91661594643944
+        },
+        "Neutral": {
+          "pnl": 4017.9489279999993,
+          "trades": 314,
+          "win_rate": 0.5119047619047619
+        },
+        "Greed": {
+          "pnl": 0.0,
+          "trades": 0,
+          "win_rate": 0.0
+        },
+        "Extreme Greed": {
+          "pnl": 0.0,
+          "trades": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    {
+      "account": "0xaf40fdc468c30116bd3307bcbf4a451a7ebf1deb",
+      "display_name": "0xaf40...1deb",
+      "total_pnl": 21758.831753000002,
+      "trade_count": 534,
+      "total_volume": 4448323.26,
+      "total_fees": 541.7456094464001,
+      "win_rate": 0.7478260869565218,
+      "archetype": "Fear Harvester",
+      "description": "Dip-buying specialist. Thrives during panic (Fear/Extreme Fear) and steps away or underperforms during high greed.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 0.0,
+          "trades": 17,
+          "win_rate": 0.0
+        },
+        "Fear": {
+          "pnl": 14542.702934,
+          "trades": 455,
+          "win_rate": 0.7198067632850241
+        },
+        "Neutral": {
+          "pnl": 7157.6835790000005,
+          "trades": 52,
+          "win_rate": 1.0
+        },
+        "Greed": {
+          "pnl": 43.2005,
+          "trades": 5,
+          "win_rate": 1.0
+        },
+        "Extreme Greed": {
+          "pnl": 15.24474,
+          "trades": 5,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0x7f4f299f74eec87806a830e3caa9afa5f2b9db8f",
+      "display_name": "0x7f4f...db8f",
+      "total_pnl": 14900.443047,
+      "trade_count": 1559,
+      "total_volume": 5844484.45,
+      "total_fees": 780.21690296,
+      "win_rate": 0.9450402144772118,
+      "archetype": "Hedged Market Maker",
+      "description": "Systematic profile. Maintains high win rates and profitability in both fear panic and greed expansion, likely delta-neutral.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 3222.8221320000002,
+          "trades": 825,
+          "win_rate": 0.9848866498740554
+        },
+        "Fear": {
+          "pnl": 4036.5523189999994,
+          "trades": 544,
+          "win_rate": 0.8885017421602788
+        },
+        "Neutral": {
+          "pnl": -395.0559780000001,
+          "trades": 104,
+          "win_rate": 0.8235294117647058
+        },
+        "Greed": {
+          "pnl": 6775.291988,
+          "trades": 83,
+          "win_rate": 1.0
+        },
+        "Extreme Greed": {
+          "pnl": 1260.832586,
+          "trades": 3,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0x39cef799f8b69da1995852eea189df24eb5cae3c",
+      "display_name": "0x39ce...ae3c",
+      "total_pnl": 14456.919335999999,
+      "trade_count": 3589,
+      "total_volume": 17193375.419999998,
+      "total_fees": 1458.6571260700002,
+      "win_rate": 0.66553480475382,
+      "archetype": "Greed Rider",
+      "description": "Momentum breakout specialist. Highly profitable during strong uptrends and euphoria, but struggles in major sell-offs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": -76179.494853,
+          "trades": 1668,
+          "win_rate": 0.4768211920529801
+        },
+        "Fear": {
+          "pnl": 54685.021109,
+          "trades": 1471,
+          "win_rate": 0.9404761904761905
+        },
+        "Neutral": {
+          "pnl": 10953.24796,
+          "trades": 272,
+          "win_rate": 1.0
+        },
+        "Greed": {
+          "pnl": 10591.760255,
+          "trades": 63,
+          "win_rate": 0.9655172413793104
+        },
+        "Extreme Greed": {
+          "pnl": 14406.384864999998,
+          "trades": 115,
+          "win_rate": 0.890625
+        }
+      }
+    },
+    {
+      "account": "0x3998f134d6aaa2b6a5f723806d00fd2bbbbce891",
+      "display_name": "0x3998...e891",
+      "total_pnl": -31203.599986000005,
+      "trade_count": 815,
+      "total_volume": 1409902.0,
+      "total_fees": 147.07476338,
+      "win_rate": 0.6508771929824562,
+      "archetype": "Liquidation Victim",
+      "description": "Vulnerable to liquidations. Suffers severe losses during market panics (Fear/Extreme Fear), likely due to over-leveraged longs.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": -56967.825773000004,
+          "trades": 263,
+          "win_rate": 0.15508021390374332
+        },
+        "Fear": {
+          "pnl": -467.05889599999955,
+          "trades": 256,
+          "win_rate": 0.9015544041450777
+        },
+        "Neutral": {
+          "pnl": -1228.907104,
+          "trades": 33,
+          "win_rate": 0.6451612903225806
+        },
+        "Greed": {
+          "pnl": -3531.989984,
+          "trades": 102,
+          "win_rate": 0.9135802469135802
+        },
+        "Extreme Greed": {
+          "pnl": 30992.181771000003,
+          "trades": 161,
+          "win_rate": 0.9487179487179487
+        }
+      }
+    },
+    {
+      "account": "0x271b280974205ca63b716753467d5a371de622ab",
+      "display_name": "0x271b...22ab",
+      "total_pnl": -70436.191318,
+      "trade_count": 3809,
+      "total_volume": 33873440.42,
+      "total_fees": 9280.98285,
+      "win_rate": 0.7156191661481021,
+      "archetype": "Bleeding Shorter",
+      "description": "High-risk contrarian who aggressively shorts bull runs too early, suffering heavy drawdowns during blow-off tops.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 16706.884912,
+          "trades": 797,
+          "win_rate": 0.9803921568627451
+        },
+        "Fear": {
+          "pnl": 30121.910490000002,
+          "trades": 1868,
+          "win_rate": 0.9444444444444444
+        },
+        "Neutral": {
+          "pnl": -19038.340561,
+          "trades": 599,
+          "win_rate": 0.0
+        },
+        "Greed": {
+          "pnl": -100019.80637400002,
+          "trades": 540,
+          "win_rate": 0.43137254901960786
+        },
+        "Extreme Greed": {
+          "pnl": 1793.1602149999999,
+          "trades": 5,
+          "win_rate": 1.0
+        }
+      }
+    },
+    {
+      "account": "0x8170715b3b381dffb7062c0298972d4727a0a63b",
+      "display_name": "0x8170...a63b",
+      "total_pnl": -167621.12478099996,
+      "trade_count": 4601,
+      "total_volume": 10143758.129999999,
+      "total_fees": 1579.38545192,
+      "win_rate": 0.7522426313541222,
+      "archetype": "Bleeding Shorter",
+      "description": "High-risk contrarian who aggressively shorts bull runs too early, suffering heavy drawdowns during blow-off tops.",
+      "sentiment_matrix": {
+        "Extreme Fear": {
+          "pnl": 12713.493131,
+          "trades": 159,
+          "win_rate": 0.8
+        },
+        "Fear": {
+          "pnl": 151292.73285899998,
+          "trades": 1745,
+          "win_rate": 0.8533772652388797
+        },
+        "Neutral": {
+          "pnl": 47610.460743999996,
+          "trades": 946,
+          "win_rate": 0.8192090395480226
+        },
+        "Greed": {
+          "pnl": -360101.898234,
+          "trades": 1653,
+          "win_rate": 0.7007751937984497
+        },
+        "Extreme Greed": {
+          "pnl": -19135.913281,
+          "trades": 98,
+          "win_rate": 0.14285714285714285
+        }
+      }
+    }
+  ],
+  "overall_coins": [
+    {
+      "coin": "BTC",
+      "total_pnl": 868044.732638,
+      "total_volume": 644232116.63,
+      "trade_count": 26064,
+      "total_fees": 139224.226804
+    },
+    {
+      "coin": "HYPE",
+      "total_pnl": 1948484.599761,
+      "total_volume": 141990206.05,
+      "trade_count": 68005,
+      "total_fees": 25361.93044
+    },
+    {
+      "coin": "SOL",
+      "total_pnl": 1639555.927506,
+      "total_volume": 125074752.06,
+      "trade_count": 10691,
+      "total_fees": 27956.304402
+    },
+    {
+      "coin": "ETH",
+      "total_pnl": 1319978.838852,
+      "total_volume": 118280994.07,
+      "trade_count": 11158,
+      "total_fees": 23091.303645
+    },
+    {
+      "coin": "@107",
+      "total_pnl": 2783912.919016,
+      "total_volume": 55760858.63,
+      "trade_count": 29992,
+      "total_fees": 5953.22478799
+    },
+    {
+      "coin": "FARTCOIN",
+      "total_pnl": -100687.213185,
+      "total_volume": 8311390.4,
+      "trade_count": 4650,
+      "total_fees": 2357.939012
+    },
+    {
+      "coin": "SUI",
+      "total_pnl": 199268.834922,
+      "total_volume": 7781167.59,
+      "trade_count": 1979,
+      "total_fees": 2003.206129
+    },
+    {
+      "coin": "TRUMP",
+      "total_pnl": -364824.908179,
+      "total_volume": 7349346.94,
+      "trade_count": 1920,
+      "total_fees": 1729.745411
+    },
+    {
+      "coin": "MELANIA",
+      "total_pnl": 390351.069856,
+      "total_volume": 7040710.45,
+      "trade_count": 4428,
+      "total_fees": 1010.388542
+    },
+    {
+      "coin": "XRP",
+      "total_pnl": 3756.901464999999,
+      "total_volume": 5343210.53,
+      "trade_count": 1774,
+      "total_fees": 701.847927
+    },
+    {
+      "coin": "PAXG",
+      "total_pnl": -18688.874329,
+      "total_volume": 3047336.39,
+      "trade_count": 1265,
+      "total_fees": 568.814553
+    },
+    {
+      "coin": "kBONK",
+      "total_pnl": 35551.245276,
+      "total_volume": 2995780.58,
+      "trade_count": 1647,
+      "total_fees": 266.038007
+    },
+    {
+      "coin": "WLD",
+      "total_pnl": 22281.920156,
+      "total_volume": 2792841.63,
+      "trade_count": 1983,
+      "total_fees": 621.7480410000001
+    },
+    {
+      "coin": "@142",
+      "total_pnl": 7450.359672,
+      "total_volume": 2486351.27,
+      "trade_count": 1309,
+      "total_fees": 181.1329677428
+    },
+    {
+      "coin": "DOGE",
+      "total_pnl": 147543.156534,
+      "total_volume": 2452103.46,
+      "trade_count": 826,
+      "total_fees": 522.224289
+    },
+    {
+      "coin": "kPEPE",
+      "total_pnl": 18676.997284,
+      "total_volume": 2450800.07,
+      "trade_count": 1730,
+      "total_fees": 425.37706000000003
+    },
+    {
+      "coin": "JELLY",
+      "total_pnl": 35193.716244,
+      "total_volume": 2193971.31,
+      "trade_count": 992,
+      "total_fees": 341.111631
+    },
+    {
+      "coin": "BERA",
+      "total_pnl": 73689.746587,
+      "total_volume": 2056756.0,
+      "trade_count": 1054,
+      "total_fees": 357.108461
+    },
+    {
+      "coin": "ONDO",
+      "total_pnl": 24570.824905,
+      "total_volume": 1726582.09,
+      "trade_count": 1463,
+      "total_fees": 172.208685
+    },
+    {
+      "coin": "TAO",
+      "total_pnl": 16817.94047,
+      "total_volume": 1693805.35,
+      "trade_count": 1082,
+      "total_fees": 258.256182
+    },
+    {
+      "coin": "PURR/USDC",
+      "total_pnl": 75261.058019,
+      "total_volume": 1642418.69,
+      "trade_count": 2774,
+      "total_fees": 1844.556381
+    },
+    {
+      "coin": "ENA",
+      "total_pnl": 217329.503554,
+      "total_volume": 1625400.5,
+      "trade_count": 990,
+      "total_fees": 276.427878
+    },
+    {
+      "coin": "JUP",
+      "total_pnl": 42909.223316999996,
+      "total_volume": 1496950.4,
+      "trade_count": 644,
+      "total_fees": 488.149084
+    },
+    {
+      "coin": "VIRTUAL",
+      "total_pnl": 19544.481508,
+      "total_volume": 1361590.25,
+      "trade_count": 570,
+      "total_fees": 400.023245
+    },
+    {
+      "coin": "ZEREBRO",
+      "total_pnl": 21166.925278,
+      "total_volume": 1320048.45,
+      "trade_count": 769,
+      "total_fees": 196.170378
+    },
+    {
+      "coin": "AIXBT",
+      "total_pnl": 73712.168895,
+      "total_volume": 1273650.18,
+      "trade_count": 819,
+      "total_fees": 353.555758
+    },
+    {
+      "coin": "SEI",
+      "total_pnl": 9957.777466,
+      "total_volume": 1266275.0,
+      "trade_count": 235,
+      "total_fees": 355.51860999999997
+    },
+    {
+      "coin": "ZRO",
+      "total_pnl": 183777.783689,
+      "total_volume": 1213825.42,
+      "trade_count": 1239,
+      "total_fees": 234.069003
+    },
+    {
+      "coin": "AAVE",
+      "total_pnl": 7485.007984,
+      "total_volume": 1100411.81,
+      "trade_count": 585,
+      "total_fees": 307.524146
+    },
+    {
+      "coin": "PURR",
+      "total_pnl": 26766.355202,
+      "total_volume": 1098592.1,
+      "trade_count": 1198,
+      "total_fees": 137.889422
+    }
+  ],
+  "token_rotation_by_sentiment": {
+    "Extreme Fear": [
+      {
+        "coin": "BTC",
+        "pnl": 3056.840312999999,
+        "volume": 36751523.27,
+        "trades": 1765
+      },
+      {
+        "coin": "HYPE",
+        "pnl": 482083.808909,
+        "volume": 29253178.69,
+        "trades": 10278
+      },
+      {
+        "coin": "SOL",
+        "pnl": 105179.504312,
+        "volume": 26241359.78,
+        "trades": 1878
+      },
+      {
+        "coin": "ETH",
+        "pnl": 274320.23069,
+        "volume": 7720053.08,
+        "trades": 1393
+      },
+      {
+        "coin": "XRP",
+        "pnl": -11974.341082000003,
+        "volume": 3818933.1,
+        "trades": 812
+      },
+      {
+        "coin": "@107",
+        "pnl": -136085.3683,
+        "volume": 2484219.74,
+        "trades": 1519
+      },
+      {
+        "coin": "SUI",
+        "pnl": 44788.991651,
+        "volume": 1318482.11,
+        "trades": 249
+      },
+      {
+        "coin": "PAXG",
+        "pnl": 588.9560720000001,
+        "volume": 1285122.33,
+        "trades": 510
+      },
+      {
+        "coin": "FARTCOIN",
+        "pnl": -138014.106207,
+        "volume": 978107.59,
+        "trades": 565
+      },
+      {
+        "coin": "TRUMP",
+        "pnl": 31638.043139999998,
+        "volume": 879662.82,
+        "trades": 181
+      }
+    ],
+    "Fear": [
+      {
+        "coin": "BTC",
+        "pnl": 482649.644056,
+        "volume": 300912163.3,
+        "trades": 9870
+      },
+      {
+        "coin": "HYPE",
+        "pnl": 840306.353176,
+        "volume": 63327528.27,
+        "trades": 27951
+      },
+      {
+        "coin": "SOL",
+        "pnl": 741594.285928,
+        "volume": 51824505.65,
+        "trades": 3914
+      },
+      {
+        "coin": "ETH",
+        "pnl": 675064.576785,
+        "volume": 39635351.1,
+        "trades": 2850
+      },
+      {
+        "coin": "@107",
+        "pnl": -12514.843273999999,
+        "volume": 8182406.93,
+        "trades": 5462
+      },
+      {
+        "coin": "MELANIA",
+        "pnl": 196849.124287,
+        "volume": 3477530.64,
+        "trades": 1985
+      },
+      {
+        "coin": "TRUMP",
+        "pnl": 18920.459616,
+        "volume": 1499406.49,
+        "trades": 442
+      },
+      {
+        "coin": "SUI",
+        "pnl": 26130.152572,
+        "volume": 1341882.96,
+        "trades": 318
+      },
+      {
+        "coin": "@142",
+        "pnl": 461.1217320000001,
+        "volume": 1209801.1,
+        "trades": 250
+      },
+      {
+        "coin": "FARTCOIN",
+        "pnl": -10811.779569,
+        "volume": 1156506.36,
+        "trades": 951
+      }
+    ],
+    "Neutral": [
+      {
+        "coin": "BTC",
+        "pnl": 165980.345627,
+        "volume": 98386717.32,
+        "trades": 4753
+      },
+      {
+        "coin": "HYPE",
+        "pnl": 300100.241102,
+        "volume": 27570986.89,
+        "trades": 17324
+      },
+      {
+        "coin": "ETH",
+        "pnl": 61574.088597999995,
+        "volume": 17590391.62,
+        "trades": 1317
+      },
+      {
+        "coin": "SOL",
+        "pnl": 303376.19465,
+        "volume": 16118744.79,
+        "trades": 1400
+      },
+      {
+        "coin": "@107",
+        "pnl": 219551.950858,
+        "volume": 7717676.43,
+        "trades": 4210
+      },
+      {
+        "coin": "TRUMP",
+        "pnl": 20121.153242,
+        "volume": 1363596.76,
+        "trades": 337
+      },
+      {
+        "coin": "SEI",
+        "pnl": 2524.55573,
+        "volume": 878907.99,
+        "trades": 151
+      },
+      {
+        "coin": "PAXG",
+        "pnl": -19037.340561,
+        "volume": 791035.41,
+        "trades": 233
+      },
+      {
+        "coin": "MELANIA",
+        "pnl": 41298.450046,
+        "volume": 777533.75,
+        "trades": 500
+      },
+      {
+        "coin": "BERA",
+        "pnl": -21617.07674,
+        "volume": 666031.65,
+        "trades": 114
+      }
+    ],
+    "Greed": [
+      {
+        "coin": "BTC",
+        "pnl": 115475.191549,
+        "volume": 164299783.9,
+        "trades": 7240
+      },
+      {
+        "coin": "ETH",
+        "pnl": 351036.01291399996,
+        "volume": 37325288.1,
+        "trades": 3574
+      },
+      {
+        "coin": "SOL",
+        "pnl": 451690.01397699997,
+        "volume": 22849528.78,
+        "trades": 1586
+      },
+      {
+        "coin": "@107",
+        "pnl": 724342.30586,
+        "volume": 16923981.98,
+        "trades": 8398
+      },
+      {
+        "coin": "HYPE",
+        "pnl": 166307.640065,
+        "volume": 11751723.2,
+        "trades": 6769
+      },
+      {
+        "coin": "FARTCOIN",
+        "pnl": 41367.714132,
+        "volume": 5199391.57,
+        "trades": 2210
+      },
+      {
+        "coin": "SUI",
+        "pnl": 101637.557765,
+        "volume": 4158513.0,
+        "trades": 880
+      },
+      {
+        "coin": "TRUMP",
+        "pnl": -432914.836315,
+        "volume": 1730002.47,
+        "trades": 510
+      },
+      {
+        "coin": "MELANIA",
+        "pnl": 73550.500324,
+        "volume": 1468082.55,
+        "trades": 1231
+      },
+      {
+        "coin": "WLD",
+        "pnl": 8147.2458050000005,
+        "volume": 1312544.72,
+        "trades": 1076
+      }
+    ],
+    "Extreme Greed": [
+      {
+        "coin": "BTC",
+        "pnl": 100882.711093,
+        "volume": 43881928.84,
+        "trades": 2436
+      },
+      {
+        "coin": "@107",
+        "pnl": 1988618.873872,
+        "volume": 20452573.55,
+        "trades": 10403
+      },
+      {
+        "coin": "ETH",
+        "pnl": -42016.070134999994,
+        "volume": 16009910.17,
+        "trades": 2024
+      },
+      {
+        "coin": "HYPE",
+        "pnl": 159686.556509,
+        "volume": 10086789.0,
+        "trades": 5683
+      },
+      {
+        "coin": "SOL",
+        "pnl": 37715.928639,
+        "volume": 8040613.06,
+        "trades": 1913
+      },
+      {
+        "coin": "kBONK",
+        "pnl": 36700.494102,
+        "volume": 2084177.97,
+        "trades": 730
+      },
+      {
+        "coin": "TRUMP",
+        "pnl": -2589.7278620000006,
+        "volume": 1876678.4000000001,
+        "trades": 450
+      },
+      {
+        "coin": "kPEPE",
+        "pnl": 20930.683155,
+        "volume": 1815877.28,
+        "trades": 937
+      },
+      {
+        "coin": "DOGE",
+        "pnl": 20799.015496,
+        "volume": 1759319.4,
+        "trades": 489
+      },
+      {
+        "coin": "WLD",
+        "pnl": 16762.504226,
+        "volume": 1225422.97,
+        "trades": 630
+      }
+    ]
+  }
+}
