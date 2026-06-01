@@ -1,5 +1,7 @@
 # Project Walkthrough - Crypto Sentiment & Trader Performance Intelligence
 
+![Sentix KPI Ribbon](assets/kpi_ribbon.png)
+
 We have successfully researched, pre-processed, and developed an interactive dashboard that explores the relationship between professional trader performance on Hyperliquid and market sentiment (Bitcoin Fear & Greed Index).
 
 ---
@@ -14,6 +16,8 @@ Top Hyperliquid traders operate in direct opposition to retail sentiment (measur
 *   **Extreme Greed Regime**: Professional traders aggressively scale out and short, opening **54.9% Shorts** (7,663 Shorts vs. 6,300 Longs).
 *   *Strategic Takeaway*: Retail panic indicates accumulation points for pros; retail euphoria marks distribution/shorting regimes.
 
+![Contrarian Positioning Signal](assets/contrarian_signal.png)
+
 ### B. Strategic Trader Archetypes
 By mapping the performance of all 32 unique Hyperliquid perp accounts across the 5 daily sentiment categories, we classified them into distinct tactical profiles:
 1.  **The Greed Rider** (e.g., [0xb1231a4a...e6bfed23](file:///C:/Users/Kavya%20Jain/.gemini/antigravity/scratch/crypto_sentiment_analysis/dashboard_data.json#L86-L122)): A momentum breakout specialist who thrives during high-greed phases (generating **+$1.10M** in *Extreme Greed* alone with a **93.8% win rate**), but remains flat during market panic.
@@ -21,11 +25,15 @@ By mapping the performance of all 32 unique Hyperliquid perp accounts across the
 3.  **The Hedged Market Maker** (e.g., [0x513b8629...49c4ff1](file:///C:/Users/Kavya%20Jain/.gemini/antigravity/scratch/crypto_sentiment_analysis/dashboard_data.json#L200-L236)): Systematic delta-neutral profiles who maintain high win rates and make substantial profits across *Fear, Neutral,* and *Greed* alike.
 4.  **The Bleeding Shorter** (e.g., [0x8170715b...27a0a63b](file:///C:/Users/Kavya%20Jain/.gemini/antigravity/scratch/crypto_sentiment_analysis/dashboard_data.json#L1605-L1630)): Contrarians who short too early in bull markets, bleeding massive profits (**-$360k** loss) during *Greed* regimes and erasing all their defensive gains.
 
+![Trader Directory & Sentiment Archetypes](assets/trader_directory.png)
+
 ### C. Token Preference Rotation
 Traders demonstrate clear asset class rotation as sentiment shifts:
 *   **In Extreme Fear**: Volume flows to blue-chip majors: **BTC** ($36.75M), **HYPE** ($29.25M), and **SOL** ($26.24M).
 *   **In Extreme Greed**: Volume flows to high-beta perps. Token **@107** becomes the most active token with 10,403 trades and $20.45M in volume.
 *   *Asset Profitability Leaderboard*: Token **@107** generated the highest total PnL (**+$2.78M**), while **TRUMP** generated the largest loss (**-$364.8k**).
+
+![Regime Profitability Summary](assets/regime_profitability.png)
 
 ---
 
