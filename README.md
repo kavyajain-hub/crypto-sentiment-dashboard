@@ -33,6 +33,12 @@ Traders demonstrate clear asset class rotation as sentiment shifts:
 *   **In Extreme Greed**: Volume flows to high-beta perps. Token **@107** becomes the most active token with 10,403 trades and $20.45M in volume.
 *   *Asset Profitability Leaderboard*: Token **@107** generated the highest total PnL (**+$2.78M**), while **TRUMP** generated the largest loss (**-$364.8k**).
 
+### D. Sentiment Regime Profitability
+Our analysis shows that professional trader performance varies drastically based on market sentiment regimes:
+*   **Fear Regime**: Generates the highest absolute cumulative profits (**+$3.36M**), highlighting the value of dip-buying and accumulating perps during fear.
+*   **Extreme Greed**: Delivers the highest average trade profitability (**+$67.89** per trade) and high win rate (**89.17%**), showing that momentum peaks provide high-conviction exits.
+*   **Extreme Fear**: Thrives as a defensive regime (**+$739k** total PnL) despite lower overall trading volume, maintaining a robust **76.22%** win rate.
+
 ![Regime Profitability Summary](assets/regime_profitability.png)
 
 ---
